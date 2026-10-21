@@ -58,10 +58,17 @@ Future intern/
 
 ## ⚡ Quick Start: How to Run and View the Project
 
-### 1. View Interactive Web Dashboard
-Launch the Streamlit app to explore forecasts with interactive sliders for lead time, service level, and department filtering:
+### 1. View Interactive Web Dashboard & REST API
+Run the production web app locally:
 ```bash
-streamlit run app.py
+python app.py
+```
+Open your browser at `http://localhost:5000`. This app is also configured for direct 1-click serverless deployment on **Vercel** (`vercel.json`).
+
+### 2. View Streamlit Executive Dashboard
+Launch the Streamlit app to explore forecasts with scenario planning controls:
+```bash
+streamlit run streamlit_app.py
 ```
 Open your browser at `http://localhost:8501`.
 
